@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+  margin: none;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(vista.jpg), url(top.jpg);
+  background-size: 100;
+  background-position: bottom;
+  margin-top: 20px;
+  background-attachment: fixed;
+}
+.content img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 200px;
+}
+.content h1{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border-radius: 50px;
+  margin: 0px 20px 0px 20px;
+}
+.content h2{
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border-radius: 50px;
+  margin: 20px 20px 0px 20px;
+  
+}
+.form-container {
+  margin: 20px;
+  padding: 15px;
+  color: white;
+  
+}
+.input-cnt {
+  display: flex;
+  margin-bottom: 15px;
+}
+.input-cnt:last-child {
+  margin-bottom: 0px;
+}
+.input-cnt > i {
+  min-width: 40px; 
+  padding: 10px; 
+  text-align: center; 
+  background: lightgrey;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #0076ff;
+  margin-left: 10%;
+  margin-top: 250px;
+}
+.input-cnt:hover > i {
+  background: #0076ff;
+  color: white;
+}
+.input-cnt > input[type="text"]{
+  outline: none;
+  border: none;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 75%;
+  height: 80px;
+  margin-top: 250px;
+}
+      
+.input-cnt > input[type="submit"] {
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  width: 50%;
+  margin: auto;
+  font-size: 200%;
+  padding: 8px;
+  color: #0076ff;
+  background: white;
+  transition-duration: .5s;
+  margin-bottom: 250px;
+}
+.input-cnt > input[type="submit"]:hover {
+  color: white;
+  background: #0076ff;
+}
+ .picture{
+  margin: 10px 0px 20px 100px;
+ }
+.picture img{
+  width: 200px;
+  height: 200px;
+  
+}
+.last{
+  background-color: black;
+  margin: 0px 20px 0px 20px;
+}
+.last h1{
+  background-color: brown;
+  margin: none;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  margin: 0px 200px 0px 200px;
+  
+}
+.last p{
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: none;
+  margin-top: none;
+}
+footer{
+  background-color: green;
+  text-align: center;
+  padding: 10px;
+}
